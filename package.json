@@ -1,0 +1,88 @@
+{
+  "name": "iobroker.template-vue",
+  "version": "0.0.1",
+  "description": "A vue-template for ioBroker based on Quasar Framework",
+  "productName": "template-vue",
+  "author": {
+    "name": "Steiger04",
+    "email": "steiger04@posteo.de"
+  },
+  "homepage": "https://github.com/Steiger04/ioBroker.template-vue",
+  "license": "MIT",
+  "keywords": [
+    "ioBroker",
+    "template",
+    "Smart Home",
+    "home automation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Steiger04/ioBroker.template-vue"
+  },
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "lint-fix-all": "eslint --fix --ext .js,.vue,.html .",
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "test:js": "mocha --opts test/mocha.custom.opts",
+    "test:package": "mocha test/package --exit",
+    "test:unit": "mocha test/unit --exit",
+    "test:integration": "mocha test/integration --exit",
+    "test": "npm run test:js && npm run test:package"
+  },
+  "dependencies": {
+    "@iobroker/adapter-core": "^2.4.0",
+    "@quasar/extras": "^1.9.0",
+    "core-js": "^3.6.5",
+    "quasar": "^1.12.13",
+    "vue-i18n": "^8.0.0",
+    "vuex-map-fields": "^1.4.0"
+  },
+  "devDependencies": {
+    "@iobroker/testing": "^2.2.0",
+    "@quasar/app": "^2.0.4",
+    "@types/chai": "^4.2.11",
+    "@types/chai-as-promised": "^7.1.2",
+    "@types/gulp": "^4.0.6",
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^14.0.14",
+    "@types/proxyquire": "^1.3.28",
+    "@types/sinon": "^9.0.4",
+    "@types/sinon-chai": "^3.2.4",
+    "axios": "^0.19.2",
+    "babel-eslint": "^10.0.1",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-vue": "^6.1.2",
+    "gulp": "^4.0.2",
+    "mocha": "^8.0.1",
+    "proxyquire": "^2.1.3",
+    "sinon": "^9.0.2",
+    "sinon-chai": "^3.5.0"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "bugs": {
+    "url": "https://github.com/Steiger04/ioBroker.template-vue/issues"
+  },
+  "readmeFilename": "README.md"
+}

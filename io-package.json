@@ -1,0 +1,102 @@
+{
+  "common": {
+    "name": "template-vue",
+    "version": "0.0.1",
+    "news": {
+      "0.0.1": {
+        "en": "initial release",
+        "de": "Erstveröffentlichung",
+        "ru": "Начальная версия",
+        "pt": "lançamento inicial",
+        "nl": "Eerste uitgave",
+        "fr": "Première version",
+        "it": "Versione iniziale",
+        "es": "Versión inicial",
+        "pl": "Pierwsze wydanie",
+        "zh-cn": "首次出版"
+      }
+    },
+    "title": "template for vue",
+    "titleLang": {
+      "en": "template for vue",
+      "de": "Vorlage für vue",
+      "ru": "шаблон для vue",
+      "pt": "modelo para vue",
+      "nl": "sjabloon voor vue",
+      "fr": "modèle pour vue",
+      "it": "modello per vue",
+      "es": "plantilla para vue",
+      "pl": "szablon dla vue",
+      "zh-cn": "Vue的模板"
+    },
+    "desc": {
+      "en": "template-vue",
+      "de": "Template-Vue",
+      "ru": "Шаблон-вю",
+      "pt": "template-vue",
+      "nl": "sjabloon-vue",
+      "fr": "template-vue",
+      "it": "template-vue",
+      "es": "plantilla-vue",
+      "pl": "szablon-vue",
+      "zh-cn": "范本"
+    },
+    "authors": [
+      "Steiger04 <steiger04@posteo.de>"
+    ],
+    "keywords": [
+      "ioBroker",
+      "template",
+      "Smart Home",
+      "home automation"
+    ],
+    "license": "MIT",
+    "platform": "Javascript/Node.js",
+    "main": "main.js",
+    "icon": "template-vue.png",
+    "enabled": true,
+    "extIcon": "https://raw.githubusercontent.com/Steiger04/ioBroker.template-vue/master/admin/template-vue.png",
+    "readme": "https://github.com/Steiger04/ioBroker.template-vue/blob/master/README.md",
+    "loglevel": "info",
+    "mode": "daemon",
+    "type": "general",
+    "compact": true,
+    "connectionType": "cloud",
+    "dataSource": "poll",
+    "materialize": true,
+    "message": true,
+    "messagebox": true,
+    "supportStopInstance": true,
+    "dependencies": [
+      {
+        "js-controller": ">=1.4.2"
+      }
+    ]
+  },
+  "native": {
+    "option1": false,
+    "option2": "50",
+    "adressen": [
+      {
+        "plz": 50259,
+        "stadt": "Köln",
+        "strasse": "Melchiorstraße",
+        "hausnummer": 3
+      },
+      {
+        "plz": 60327,
+        "stadt": "Frankfurt am Main",
+        "strasse": "Ludwig-Erhard-Anlage",
+        "hausnummer": 1
+      },
+      {
+        "plz": 80336,
+        "stadt": "München",
+        "strasse": "Schillerstraße",
+        "hausnummer": 9
+      }
+    ]
+  },
+  "objects": [],
+  "instanceObjects": []
+}

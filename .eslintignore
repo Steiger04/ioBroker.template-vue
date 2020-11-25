@@ -1,0 +1,8 @@
+/lib/trans/tools.js
+/admin
+/src-bex/www
+/src-capacitor
+/src-cordova
+/.quasar
+/node_modules
+package-lock.json
