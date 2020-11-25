@@ -1,6 +1,15 @@
 ![Logo](./public/template-vue.png)
 # ioBroker.template-vue
-[![Dependency Status](https://img.shields.io/david/Steiger04/iobroker.template-vue.svg)](https://david-dm.org/Steiger04/iobroker.template-vue)
+[![NPM version](http://img.shields.io/npm/v/iobroker.template-vue)](https://www.npmjs.com/package/template-vue)
+[![Downloads](https://img.shields.io/npm/dm/iobroker.template-vue.svg)](https://www.npmjs.com/package/iobroker.template-vue)
+[![stable](http://iobroker.live/badges/template-vue-stable.svg)](http://iobroker.live/badges/template-vue-stable.svg)
+[![installed](http://iobroker.live/badges/template-vue-installed.svg)](http://iobroker.live/badges/template-vue-installed.svg)
+[![Dependency Status](https://img.shields.io/david/steiger04/iobroker.template-vue.svg)](https://david-dm.org/steiger04/iobroker.template-vue)
+[![Known Vulnerabilities](https://snyk.io/test/github/steiger04/ioBroker.template-vue/badge.svg)](https://snyk.io/test/github/steiger04/ioBroker.template-vue)
+
+![Test and Release](https://github.com/steiger04/ioBroker.template-vue/workflows/Test%20and%20Release/badge.svg)
+
+[![NPM](https://nodei.co/npm/iobroker.template-vue.png?downloads=true)](https://nodei.co/npm/iobroker.template-vue/)
 
 ## template-vue adapter for ioBroker
 The template integrates Quasar with Vuex, a Vue.js-based framework and enables the simple and efficient development
